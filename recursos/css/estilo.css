@@ -74,6 +74,8 @@ body {
 
 .modulo {
     flex-basis: 33%;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .modulo > h3 {
@@ -106,3 +108,33 @@ body {
 .modulo > ul > li:hover {
     background-color: #eee;
 }
+
+.modulo.verde { border: 2px solid #4caf50; }
+.modulo.verde > h3 { background-color: #4caf50; }
+
+.modulo.vermelho { border: 2px solid #f44336; }
+.modulo.vermelho > h3 { background-color: #f44336; }
+
+.modulo.azul { border: 2px solid #2196f3; }
+.modulo.azul > h3 { background-color: #2196f3; }
+
+.modulo.roxo { border: 2px solid #9c27b0; }
+.modulo.roxo > h3 { background-color: #9c27b0; }
+
+.modulo.laranja { border: 2px solid #ff9800; }
+.modulo.laranja > h3 { background-color: #ff9800; }
+
+.modulo.rosa { border: 2px solid magenta; }
+.modulo.rosa > h3 { background-color: magenta; }
+
+.modulo.aqua { border: 2px solid aqua; }
+.modulo.aqua > h3 { background-color: aqua; }
+
+.modulo.gray { border: 2px solid gray; }
+.modulo.gray > h3 { background-color: gray; }
+
+.modulo.vinho { border: 2px solid #990059; }
+.modulo.vinho > h3 { background-color: #990059; }
+
+.modulo.preto { border: 2px solid #000; }
+.modulo.preto > h3 { background-color: #000; }
